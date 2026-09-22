@@ -156,8 +156,6 @@ The dashboard follows a professional automotive analytics theme.
 
 ## 📷 Dashboard Preview
 
-## 📷 Dashboard Preview
-
 ### Automobile Sales Overview
 ![Automobile Sales Overview](Screenshots/01-Automobile-Sales-Overview.png)
 
@@ -171,16 +169,3 @@ The dashboard follows a professional automotive analytics theme.
 ![Executive Insights](Screenshots/04-Automobile-Executive-Insights.png)
 
 ## 📂 Project Files
-
-```text
-Automobile-Sales-Analytics-Power-BI/
-│
-├── Automobile_Sales_Analytics.pbix
-├── Automobile_Sales_Analytics_Dataset_15000_Rows.csv
-├── README.md
-│
-└── Screenshots/
-    ├── 01-Automobile-Sales-Overview.png
-    ├── 02-Vehicle-Product-Performance.png
-    ├── 03-Customer-Regional-Insights.png
-    └── 04-Automobile-Executive-Insights.png
