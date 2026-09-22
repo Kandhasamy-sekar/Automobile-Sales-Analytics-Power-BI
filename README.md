@@ -23,20 +23,21 @@ This project uses a 15,000-row automobile sales dataset and transforms raw sales
 
 ## 🛠️ Tools & Technologies
 
-- **Power BI Desktop**
+- **Microsoft Power BI**
 - **Power Query**
 - **DAX**
-- **Microsoft Excel / CSV**
+- **CSV Dataset**
+- **Data Cleaning & Transformation**
 - **Data Visualization**
-- **Data Analytics**
+- **Business Analytics**
 
 ---
 
 ## 📁 Dataset
 
-The dataset contains **15,000 automobile sales records**.
+The project uses a **15,000-row automobile sales dataset**.
 
-### Key Columns
+### Key Data Fields
 
 - Sale ID
 - Sale Date
@@ -45,6 +46,7 @@ The dataset contains **15,000 automobile sales records**.
 - Country
 - State / Region
 - City
+- Dealer Name
 - Brand
 - Model
 - Vehicle Type
@@ -74,7 +76,8 @@ The dataset contains **15,000 automobile sales records**.
 
 Provides a high-level overview of automobile sales performance.
 
-**Key elements:**
+**Key Visuals:**
+
 - Total Vehicles Sold
 - Total Revenue
 - Total Profit
@@ -85,62 +88,71 @@ Provides a high-level overview of automobile sales performance.
 - Sales by Region
 - Top 10 Models
 
+---
+
 ### 2. Vehicle & Product Performance
 
-Focuses on product and vehicle-level performance.
+Focuses on brand and vehicle-level performance.
 
-**Key elements:**
+**Key Visuals:**
+
 - Units Sold by Brand
 - Revenue by Vehicle Segment
 - Profit by Vehicle Type
 - Sales by Fuel Type
 
+---
+
 ### 3. Customer & Regional Insights
 
 Analyzes customer behavior and regional sales patterns.
 
-**Key elements:**
+**Key Visuals:**
+
 - Sales by Customer Type
 - Sales by Region
 - Sales by Customer Rating
 - Sales by Customer Age Group
 - Sales by Customer Gender
 
+---
+
 ### 4. Executive Insights
 
-Provides a summarized view for business-level analysis.
+Provides a summarized business-level view of automobile performance.
 
-**Key elements:**
+**Key KPIs:**
+
 - Total Revenue
 - Total Profit
 - Average Profit Margin
 - Average Customer Rating
+
+**Key Visuals:**
+
 - Revenue vs Profit by Year
 - Profit by Brand
 - Sales by Fuel Type
 
 ---
 
-## 🔍 Key DAX / Analytics Concepts
+## 🔍 Analytics Concepts Used
 
-The project uses Power BI features such as:
-
-- Sum aggregation
-- Average aggregation
-- Calculated columns
-- Month sorting
-- Top N analysis
-- KPI cards
-- Interactive slicers
-- Conditional formatting
-- Data modeling
-- Business-focused data visualization
+- Data Cleaning
+- Data Transformation
+- Power Query
+- DAX
+- KPI Development
+- Calculated Columns
+- Month Sorting
+- Top N Analysis
+- Interactive Slicers
+- Data Aggregation
+- Business-focused Data Visualization
 
 ---
 
 ## 🎨 Dashboard Theme
-
-The dashboard follows a professional automotive analytics theme.
 
 | Element | Color |
 |---|---|
@@ -148,6 +160,7 @@ The dashboard follows a professional automotive analytics theme.
 | Revenue Blue | `#1976D2` |
 | Profit Green | `#10B981` |
 | Accent Orange | `#F59E0B` |
+| AI / Insight Purple | `#6C63FF` |
 | Background | `#F5F7FA` |
 | Card Background | `#FFFFFF` |
 | Text | `#1F2937` |
@@ -156,16 +169,42 @@ The dashboard follows a professional automotive analytics theme.
 
 ## 📷 Dashboard Preview
 
-### Automobile Sales Overview
-![Automobile Sales Overview](Screenshots/01-Automobile-Sales-Overview.png)
+### 🚗 Automobile Sales Overview
 
-### Vehicle & Product Performance
-![Vehicle & Product Performance](Screenshots/02-Vehicle-Product-Performance.png)
+![Automobile Sales Overview](./Screenshots/01-Automobile-Sales-Overview.png)
 
-### Customer & Regional Insights
-![Customer & Regional Insights](Screenshots/03-Customer-Regional-Insights.png)
+---
 
-### Executive Insights
-![Executive Insights](Screenshots/04-Automobile-Executive-Insights.png)
+### 🚘 Vehicle & Product Performance
 
-## 📂 Project Files
+![Vehicle & Product Performance](./Screenshots/02-Vehicle-Product-Performance.png)
+
+---
+
+### 👥 Customer & Regional Insights
+
+![Customer & Regional Insights](./Screenshots/03-Customer-Regional-Insights.png)
+
+---
+
+### 📈 Executive Insights
+
+![Executive Insights](./Screenshots/04-Automobile-Executive-Insights.png)
+
+---
+
+## 📂 Project Structure
+
+```text
+Automobile-Sales-Analytics-Power-BI/
+│
+├── Automobile_Sales_Analytics.pbix
+├── Automobile_Sales_Analytics_Dataset_15000_Rows.csv
+├── README.md
+├── LICENSE
+│
+└── Screenshots/
+    ├── 01-Automobile-Sales-Overview.png
+    ├── 02-Vehicle-Product-Performance.png
+    ├── 03-Customer-Regional-Insights.png
+    └── 04-Automobile-Executive-Insights.png
